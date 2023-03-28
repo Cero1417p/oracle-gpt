@@ -1,0 +1,63 @@
+input{
+    font-size: 100%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:transparent;
+    color: white;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="date"] {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    
+    color: white;
+}
+input[type="date"]:focus {
+    background-color: black;
+  }
+input[type=submit]:hover {
+    background-color: gray;
+}
+
+form {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.topcenter {
+  position: absolute;
+  top: 8px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+}
+h1,h2,h3{
+    text-shadow: 5px 5px 10px black;
+}

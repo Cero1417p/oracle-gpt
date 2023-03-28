@@ -40,7 +40,7 @@ export const UseGeneratePrediction = () => {
 
     const handleSubmit = () => {
         setLoading(true);
-        fetch("http://192.168.0.12:5000/oraculus",
+        fetch("https://service-oracle.onrender.com/",
             {
                 method: 'POST',
                 headers: {
